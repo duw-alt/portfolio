@@ -24,27 +24,20 @@ const Contact = () => {
 
   const onSubmit = async (data: FormData) => {
     try {
-      // Send the main message to your email
       await emailjs.send(
         import.meta.env.VITE_EMAILJS_SERVICE_ID,
         import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
-        data,
-        import.meta.env.VITE_EMAILJS_PUBLIC_KEY
-      );
-
-      // Send auto-reply to the sender
-      await emailjs.send(
-        import.meta.env.VITE_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_EMAILJS_AUTOREPLY_TEMPLATE_ID,
         {
-          to_email: data.email,
-          to_name: data.name,
+          from_name: data.name,
+          from_email: data.email,
+          message: data.message,
+          reply_to: data.email,
+          to_name: "Elene Mchedlidze", 
         },
         import.meta.env.VITE_EMAILJS_PUBLIC_KEY
       );
-
       reset();
-      alert('Message sent successfully!');
+      alert('Message sent successfully! Check your email for confirmation.');
     } catch (error) {
       console.error('Error sending message:', error);
       alert('Failed to send message. Please try again.');

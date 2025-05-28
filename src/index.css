@@ -5,11 +5,11 @@
 @layer base {
   html {
     scroll-behavior: smooth;
-  }
-  
+}
+
   body {
     @apply bg-light dark:bg-dark text-dark dark:text-light;
-  }
+}
 }
 
 @layer components {
@@ -19,8 +19,8 @@
   
   .container-padding {
     @apply px-4 md:px-6 lg:px-8;
-  }
-  
+}
+
   .heading-xl {
     @apply text-4xl md:text-5xl lg:text-6xl font-bold;
   }
@@ -35,12 +35,12 @@
   
   .btn {
     @apply px-6 py-3 rounded-lg font-medium transition-all duration-300;
-  }
+}
   
   .btn-primary {
     @apply bg-primary text-white hover:bg-primary/90;
-  }
-  
+}
+
   .btn-secondary {
     @apply bg-secondary text-white hover:bg-secondary/90;
   }
