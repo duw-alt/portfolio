@@ -1,5 +1,4 @@
 import { motion } from 'framer-motion';
-import { useInView } from 'react-intersection-observer';
 
 // Define your skills with logo, name, and level
 const skills = [
