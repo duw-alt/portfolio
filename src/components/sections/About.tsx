@@ -55,17 +55,6 @@ const About = () => {
                 <p className="text-gray-700 dark:text-gray-300 ml-4">
                   Building scalable web applications and contributing to open-source projects.
                 </p>
-
-                <p className="text-gray-700 dark:text-gray-300">
-                  <span className="text-primary">$</span> certifications
-                </p>
-                <p className="text-gray-700 dark:text-gray-300 ml-4">
-                  • Full Stack Web Development Certification
-                  <br />
-                  • React Advanced Concepts
-                  <br />
-                  • Node.js & Express.js
-                </p>
               </div>
             </div>
           </div>
