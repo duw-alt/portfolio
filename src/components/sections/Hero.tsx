@@ -16,9 +16,9 @@ const Hero = () => {
             transition={{ delay: 0.2 }}
             className="heading-xl mb-6"
           >
-            <span className="text-primary">IT Support Specialist</span>
+            <span className="text-primary">Full Stack</span>
             <br />
-            Future Cybersecurity Analyst
+            Web Developer
           </motion.h1>
 
           <motion.p
@@ -27,7 +27,7 @@ const Hero = () => {
             transition={{ delay: 0.4 }}
             className="text-lg md:text-xl text-gray-600 dark:text-gray-300 mb-8 max-w-2xl mx-auto"
           >
-            Passionate about solving tech problems and building a future in cybersecurity.
+            Passionate about building modern, responsive, and user-friendly web applications.
           </motion.p>
 
           <motion.div
@@ -36,14 +36,6 @@ const Hero = () => {
             transition={{ delay: 0.6 }}
             className="flex flex-col sm:flex-row gap-4 justify-center"
           >
-            <a
-              href="/resume.pdf"
-              className="btn btn-primary"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Download Resume
-            </a>
             <a href="#projects" className="btn btn-secondary">
               View Projects
             </a>

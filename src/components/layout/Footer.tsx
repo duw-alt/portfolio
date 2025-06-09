@@ -11,7 +11,7 @@ const Footer = () => {
 
           <div className="flex items-center gap-6">
             <a
-              href="https://github.com/yourusername"
+              href="https://github.com/duw-alt"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-600 dark:text-gray-300 hover:text-primary transition-colors"
@@ -26,7 +26,7 @@ const Footer = () => {
             </a>
 
             <a
-              href="https://linkedin.com/in/yourusername"
+              href="https://www.linkedin.com/in/elene-mchedlidze-939860266/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-600 dark:text-gray-300 hover:text-primary transition-colors"
@@ -44,7 +44,7 @@ const Footer = () => {
 
         <div className="mt-8 text-center">
           <p className="text-gray-600 dark:text-gray-300">
-            © {new Date().getFullYear()} Your Name. All rights reserved.
+            © {new Date().getFullYear()} Elene Mchedlidze. All rights reserved.
           </p>
         </div>
       </div>

@@ -3,24 +3,24 @@ import { useInView } from 'react-intersection-observer';
 
 const projects = [
   {
-    title: 'Network Security Scanner',
-    description: 'A Python-based tool for scanning network vulnerabilities and potential security threats.',
-    technologies: ['Python', 'Nmap', 'Socket Programming'],
-    github: 'https://github.com/yourusername/network-scanner',
+    title: 'E-Commerce Platform',
+    description: 'A full-stack e-commerce platform with user authentication, product management, and payment integration.',
+    technologies: ['React', 'Node.js', 'MongoDB', 'Stripe'],
+    github: 'https://github.com/duw-alt/Ecommerce-website',
+    demo: 'https://dji-go2q.onrender.com/home',
+  },
+  {
+    title: 'Task Management App',
+    description: 'A collaborative task management application with real-time updates and team collaboration features.',
+    technologies: ['Next.js', 'TypeScript', 'PostgreSQL', 'Socket.io'],
+    github: 'https://github.com/yourusername/task-manager',
     demo: 'https://demo-link.com',
   },
   {
-    title: 'IT Helpdesk Dashboard',
-    description: 'A web application for managing IT support tickets and tracking system issues.',
-    technologies: ['React', 'Node.js', 'MongoDB'],
-    github: 'https://github.com/yourusername/helpdesk-dashboard',
-    demo: 'https://demo-link.com',
-  },
-  {
-    title: 'Security Awareness Training',
-    description: 'An interactive web platform for employee security training and phishing awareness.',
-    technologies: ['React', 'TypeScript', 'Firebase'],
-    github: 'https://github.com/yourusername/security-training',
+    title: 'Dashboard',
+    description: 'A responsive dashboard for managing content with analytics and scheduling features.',
+    technologies: ['React', 'Express.js', 'MongoDB', 'Chart.js'],
+    github: 'https://github.com/duw-alt/dashboard-app',
     demo: 'https://demo-link.com',
   },
 ];

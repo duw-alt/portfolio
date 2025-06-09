@@ -39,32 +39,32 @@ const About = () => {
                   <span className="text-primary">$</span> whoami
                 </p>
                 <p className="text-gray-700 dark:text-gray-300 ml-4">
-                  IT Support Specialist with a passion for cybersecurity
+                  I'm Elene Mchedlidze a 17 year old Full Stack Web Developer from Georgia 🇬🇪.
                 </p>
 
                 <p className="text-gray-700 dark:text-gray-300">
                   <span className="text-primary">$</span> location
                 </p>
                 <p className="text-gray-700 dark:text-gray-300 ml-4">
-                  Based in [Your Location]
+                  Based in Tbilisi, Georgia
                 </p>
 
                 <p className="text-gray-700 dark:text-gray-300">
                   <span className="text-primary">$</span> goals
                 </p>
                 <p className="text-gray-700 dark:text-gray-300 ml-4">
-                  Currently aiming to break into the cybersecurity field via real-world helpdesk experience.
+                  Building scalable web applications and contributing to open-source projects.
                 </p>
 
                 <p className="text-gray-700 dark:text-gray-300">
                   <span className="text-primary">$</span> certifications
                 </p>
                 <p className="text-gray-700 dark:text-gray-300 ml-4">
-                  • Google IT Support Professional Certificate
+                  • Full Stack Web Development Certification
                   <br />
-                  • Introduction to Cybersecurity
+                  • React Advanced Concepts
                   <br />
-                  • [Add more certifications]
+                  • Node.js & Express.js
                 </p>
               </div>
             </div>
